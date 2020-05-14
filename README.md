@@ -1,2 +1,5 @@
-# Minicurso de Rcpp
- Material do minicurso de Rcpp
+## Minicurso de Rcpp
+
+# Integrando o R com C++: Uma breve introdução ao Rcpp
+ 
+ O Rcpp é um pacote construído para o R que concretiza uma integração consistente entre as linguagens C++ e  R. Este pacote funciona como uma extensão do R e permite de forma fácil que o usuário construa suas aplicações baseado em C++. Neste minicurso, serão apresentados alguns tópicos básicos de como fazer a integração usando o pacote Rcpp, além de algumas aplicações visando mostrar o potencial em termos de velocidade (tempo) e uso de memória. Veremos a partir de alguns exemplos a diferença entre a performance de um laço em C++ e um em R. Mostraremos os benefícios e vantagens de funções usando o Rcpp em relação as funções feitas no ambiente do R. Ao final, espera-se que os participantes sejam capazes de criar suas próprias funções usando o Rcpp, e conheça um conjunto de pacotes (RcppArmadillo, RcppEigen,...) que já utiliza o pacote mencionado para otimizar seus códigos em termos de velocidade e consumo de memória, intercalando com facilidade de uso proporcionada por essa integração.
